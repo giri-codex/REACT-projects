@@ -1,0 +1,13 @@
+.searchbar { display:flex; gap:8px; }
+.search-input {
+  width:100%;
+  padding:10px 12px;
+  border-radius:6px;
+  border:1px solid #ddd;
+  font-size:15px;
+  outline:none;
+}
+.search-btn {
+  background:#007bff; color:white; border:none; padding:10px 14px; border-radius:6px; cursor:pointer;
+}
+.search-btn:hover { background:#0056b3; }
