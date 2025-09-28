@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full screen height */
+  padding: 0 20px; /* Add padding on the sides for spacing */
+}
+
+.qr-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* Maximum width of the form */
+  padding: 30px;
+}
+
+.qr-box h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.qr-box label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.qr-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.qr-box input:focus {
+  border-color: #0077ff; /* Blue border on focus */
+}
+
+.qr-box button {
+  padding: 12px 20px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.qr-box button:hover {
+  background: #005fcc;
+}
+
+.qr-box .btn2 {
+  background: #28a745;
+}
+
+.qr-box .btn2:hover {
+  background: #218838;
+}
+
+.qr-box img {
+  margin-top: 20px;
+  max-width: 100%; /* Make sure the QR code image is responsive */
+  height: auto;
+}
